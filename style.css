@@ -1,0 +1,39 @@
+/* Reset default margins */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #111; /* dark background to make box stand out */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  border: 2px solid #2b2b2b; /* blackish dark grey outline */
+  background-color: #666;     /* grey inside */
+  padding: 40px 50px;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.box h1 {
+  color: #2b2b2b; /* same color as outline */
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.box p {
+  color: #2b2b2b; /* same color as outline */
+  font-size: 1em;
+  line-height: 1.6;
+}
